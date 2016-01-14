@@ -11,7 +11,6 @@ import { Component } from 'angular2/core';
 import { GroupBox, GroupBoxHeader } from '../app/group-box/group-box.js';
 
 @Component({
-  selector: 'test-component',
   template: '',
   directives: [GroupBox, GroupBoxHeader]
 })

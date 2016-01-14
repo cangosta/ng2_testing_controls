@@ -2,8 +2,6 @@ module.exports = function(config) {
   config.set({
     frameworks: ['jasmine'],
     files: [
-      {pattern: 'node_modules/es6-module-loader/dist/es6-module-loader.js', included: true, watched: true},
-      {pattern: 'node_modules/es6-shim/es6-shim.js', included: true, watched: true},
       {pattern: 'node_modules/angular2/bundles/angular2-polyfills.js', included: true, watched: true},
       {pattern: 'node_modules/systemjs/dist/system.src.js', included: true, watched: true},
       {pattern: 'node_modules/rxjs/bundles/Rx.js', included: true, watched: true},
