@@ -1,0 +1,36 @@
+{
+  "name": "ng2_testing_fakeasync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cangosta/ng2_testing_fakeasync.git"
+  },
+  "author": "cangosta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cangosta/ng2_testing_fakeasync/issues"
+  },
+  "devDependencies": {
+    "angular2": "2.0.0-beta.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-traceur": "^0.17.1",
+    "jasmine": "2.3.2",
+    "karma": "^0.13.18",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-cli": "^0.0.4",
+    "karma-jasmine": "^0.3.6",
+    "rtts_assert": "^0.0.1",
+    "rxjs": "5.0.0-beta.0",
+    "es6-shim": "^0.33.13",
+    "systemjs": "^0.19.6"
+  },
+  "homepage": "https://github.com/cangosta/ng2_testing_fakeasync#readme"
+}

@@ -1,2 +1,4 @@
-# ng2_testing_controls
-just for the demonstration of an error
+# Setup and Run
+
+  * npm install
+  * gulp test

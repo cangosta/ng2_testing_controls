@@ -1,0 +1,15 @@
+<div class="group-box">
+
+  <div class="group-box-header" (click)="toggle()" [class.expandable]="isExpandable">  <!-- *ngIf="hasGroupBoxHeaderContent || isExpandable" -->
+    <div class="header-content" *ngIf="hasGroupBoxHeaderContent">
+      <ng-content select="group-box-header"></ng-content>
+    </div>
+    <div class="header-expanded-visibility-icon" *ngIf="isExpandable && isExpanded"></div>
+    <div class="header-collapsed-visibility-icon" *ngIf="isExpandable && !isExpanded"></div>
+  </div>
+
+  <div class="group-box-content" *ngIf="isExpanded">
+    <ng-content></ng-content>
+  </div>
+
+</div>

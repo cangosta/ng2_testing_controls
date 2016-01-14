@@ -1,0 +1,67 @@
+.tabs-container {
+  
+  .tabs-items {
+    position: relative;
+    list-style: none;
+    font-size: 16px;
+    padding-left: 15px;
+    
+    .tab {
+      height: 35px;
+      padding: 5px 10px 5px 10px;
+      background-color: $tab-item-background-color;
+      cursor: pointer;
+      
+      &:hover {
+        background-color: $tab-item-background-color-hover;
+      }
+      
+      &.active {
+        background-color: $tab-item-background-color-selected;
+      }
+      
+      .tab-title {
+        
+      }
+      .tab-icon {
+        padding-top: 5px !important;
+      }
+    }
+    
+  }
+  
+  &.stacked {
+      
+  }
+  
+  &.pills {
+      .tabs-items {
+          padding-left: 0;
+      }
+  }
+  
+//   &.stacked {
+//     display: table;
+//     width: 100%;
+//     
+//     .tabs-items {
+//         display: table-cell;
+//     }
+//     .tabs-content {
+//         display: table-cell;
+//     }
+//   }
+//   
+//   &.pills {
+//     display: table;
+//     width: 100%;
+//     
+//     .tabs-items {
+//         
+//         display: table-cell;
+//     }
+//     .tabs-content {
+//         display: table-cell;
+//     }
+//   }
+}
