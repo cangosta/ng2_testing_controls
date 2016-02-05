@@ -10,6 +10,7 @@ module.exports = function(config) {
       {pattern: 'node_modules/angular2/bundles/http.dev.js', included: true, watched: true},
       {pattern: 'node_modules/angular2/bundles/testing.dev.js', included: true, watched: true},
       {pattern: 'node_modules/traceur/bin/traceur-runtime.js', included: true, watched: true},
+      {pattern: 'node_modules/ng2-karma-jasmine-matchers/ng2-karma-jasmine-matchers.js', included: true, watched: true},
       {pattern: 'karma-test-shim.js', included: true, watched: true},
 
       // paths loaded via module imports
